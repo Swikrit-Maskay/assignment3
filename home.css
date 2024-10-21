@@ -1,0 +1,683 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #fffeb3;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #ffe28a;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #666547;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+}
+
+.navbar a:not(.signup):hover{
+    background-color: #f8d364;
+}
+
+.navbar .signup {
+    background-color: #fb2e01;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .signup:hover {
+    background-color: #e32b01; 
+}
+
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1; 
+    padding: 70px 20px; 
+    margin-top: -25px;
+}
+.main-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 1.2rem;
+    color: #666547;
+    margin-bottom: 40px;
+}
+
+.main-section .action-buttons a {
+    background-color: #fb2e01;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.main-section .action-buttons a:hover {
+    background-color: #e32b01;
+}
+.main_section_aboutus {
+    padding: 60px 20px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_section_aboutus h1 {
+    font-size: 2.8rem;
+    color: #fb2e01;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.main_section_aboutus p {
+    font-size: 1.2rem;
+    color: #666547;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.main_section_aboutus h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.main_section_aboutus p {
+    margin-bottom: 40px;
+}
+
+.main_section_aboutus p:last-of-type {
+    margin-bottom: 0;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.team-member {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666547;
+}
+.features-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.features-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.features-section p {
+    font-size: 1.2rem;
+    color: #666547;
+    margin-bottom: 40px;
+}
+
+.features-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-left, .features-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.feature-box {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.feature-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #666547;
+}
+
+.feature-center img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    margin-top: 50px;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    color: white;
+    background-color: #fb2e01;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.call-to-action a.signup-button {
+    background-color: #fb2e01;
+}
+
+.call-to-action a:hover {
+    background-color: #e32b01;
+}
+
+@media (max-width: 768px) {
+    .features-content {
+        flex-direction: column;
+    }
+    
+    .feature-center img {
+        width: 200px;
+        height: 200px;
+    }
+}
+.professionals-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.professionals-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.professionals-section p {
+    font-size: 1.2rem;
+    color: #666547;
+    margin-bottom: 40px;
+}
+
+
+.professionals-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.professional-item {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.professional-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.professional-info h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+}
+
+.professional-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.professional-info ul li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.icon-user:before,
+.icon-email:before,
+.icon-phone:before {
+    content: '•';
+    margin-right: 10px;
+}
+.signup-section {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.signup-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.signup-section p {
+    font-size: 1.2rem;
+    color: #666547;
+    margin-bottom: 40px;
+}
+
+/* Form Styling */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background-color: #fb2e01;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #e32b01;
+}
+
+.login-text {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.login-text a {
+    color: #fb2e01;
+    text-decoration: none;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+.chatbot-intro {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fffeb3;
+}
+
+.chatbot-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.chatbot-intro p {
+    font-size: 1.2rem;
+    color: #666547;
+    margin-bottom: 30px;
+}
+
+.chatbox-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.chatbox-container {
+    width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#chat-output {
+    height: 300px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#send-btn {
+    background-color: #fb2e01;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background-color: #e32b01;
+}
+.call-to-action2 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffe28a;
+}
+
+.call-to-action2 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.call-to-action2 .signup-button {
+    background-color: #fb2e01;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.call-to-action2 .signup-button:hover {
+    background-color: #e32b01;
+}
+.resources-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.resources-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.resources-section p {
+    font-size: 1.2rem;
+    color: #666547;
+    margin-bottom: 40px;
+}
+
+.resources-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.resource-item {
+    width: 80%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource-item h3 a {
+    color: #fb2e01;
+    text-decoration: none;
+}
+
+.resource-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.resource-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.call-to-action3 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffe28a;
+}
+
+.call-to-action3 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.call-to-action3 .signup-button {
+    background-color: #fb2e01;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.call-to-action3 .signup-button:hover {
+    background-color: #e32b01;
+}
+.success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f0f8ff; 
+    border: 1px solid 	#6fcb9f; 
+    border-radius: 8px; 
+    margin: 20px auto;
+    max-width: 600px; 
+    text-align: center;
+}
+
+.success-message h1 {
+    color: #333; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.success-message p {
+    color: #333;
+    font-size: 1.2em; 
+    margin-bottom: 30px;
+}
+
+.success-message .home-btn {
+    background-color: 	#6fcb9f;
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+}
+
+.success-message .home-btn:hover {
+    background-color: #45a049; 
+}
+.menu {
+    display: none;
+}
+
+.menu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none; /* Hidden on larger screens */
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: 4px 0;
+    border-radius: 2px;
+    color: #333;
+}
+
+/* Responsive Menu for Mobile Screens */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #ffe28a;
+        z-index: 1; /* Ensures the menu overlays other content */
+        align-items: center;
+    }
+
+    .menu.active {
+        display: flex; /* Display menu when active */
+    }
+
+    .hamburger {
+        display: flex;
+        flex-wrap: wrap; /* Display the hamburger icon on smaller screens */
+    }
+
+    /* Adjust links within the menu */
+    .navbar .menu a {
+        color: white;
+        margin: 10px 0;
+        text-align: center;
+        padding: 10px;
+        width: 70%;
+        background-color: #6fcb9f; /* Slightly lighter than the menu background */
+        text-decoration: none;
+        border-bottom: 1px solid #fb2e01; /* Adds a border for better visual separation */
+        border-radius: 5px;
+    }
+
+    .navbar .menu a:hover {
+        background-color: #555; /* Hover effect for links */
+    }
+}
+@media (min-width: 768px) {
+    /* Make the menu visible on larger screens */
+    .menu {
+        display: flex;
+    }
+    
+    .hamburger {
+        display: none; 
+    }
+}
+@media (max-width: 768px) {
+    .features-content {
+        flex-direction: column;
+    }
+
+    .feature-box {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .feature-center img {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar .logo a {
+        font-size: 1.5rem;
+    }
+
+    .signup-form {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar .menu a {
+        font-size: 0.9rem;
+    }
+
+    .signup-form input {
+        font-size: 1rem;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+    }
+}

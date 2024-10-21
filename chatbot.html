@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Chatbot</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="aboutus.html">About Us</a>
+            <a href="features.html">Features</a>
+            <a href="connect.html">Support</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="resources.html">Resources</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="chatbot-intro">
+        <h1>AI-Powered Mental Health Chatbot</h1>
+        <p>Our AI chatbot is here to provide instant support, answers to your mental health queries, and guide you to the resources you need to feel better. Start chatting now!</p>
+    </section>
+
+    <section class="chatbox-section">
+        <div class="chatbox-container">
+            <div id="chat-output">
+                <p><strong>Chatbot:</strong> Hi! How can I help you today?</p>
+            </div>
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </section>
+
+    <section class="call-to-action2">
+        <h2>Want More Personalized Support?</h2>
+        <a href="signup.html" class="signup-button">Sign Up for Full Features</a>
+    </section>
+
+    <script src="chatbot.js"></script> 
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Mental Health Wellness</title>
+    <link rel="stylesheet" href="home.css"> 
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="aboutus.html">About Us</a>
+            <a href="features.html">Features</a>
+            <a href="connect.html">Support</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="resources.html">Resources</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main class="main_section_aboutus">
+        <h1>About Us</h1>
+        <p>At Mental Health Wellness, we strive to create a supportive community for mental wellness. Our mission is to empower individuals to take charge of their mental health and well-being.</p>
+        
+        <h2>Our Vision</h2>
+        <p>We envision a world where mental health is prioritized and everyone has access to the resources and support they need to thrive.</p>
+        
+        <h2>Our Mission</h2>
+        <p>Our mission is to provide accessible resources, support, and a sense of community to those facing mental health challenges.</p>
+        
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <h3>Dr. Emma Johnson</h3>
+                <p>Clinical Psychologist with 10+ years of experience in mental health.</p>
+            </div>
+            <div class="team-member">
+                <h3>John Smith</h3>
+                <p>Wellness Coach focused on holistic approaches to mental wellness.</p>
+            </div>
+            <div class="team-member">
+                <h3>Sarah Lee</h3>
+                <p>Mental Health Advocate and Community Organizer.</p>
+            </div>
+            <div class="team-member">
+                <h3>Michael Brown</h3>
+                <p>Content Creator dedicated to spreading awareness about mental health.</p>
+            </div>
+        </div>
+    </main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

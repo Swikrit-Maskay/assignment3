@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - Mental Health Wellness</title>
+    <link rel="stylesheet" href="home.css"> 
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="aboutus.html">About Us</a>
+            <a href="features.html">Features</a>
+            <a href="connect.html">Support</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="resources.html">Resources</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main class="features-section">
+        <h1>Explore Our Key Features for Mental Wellness</h1>
+        <p>At Mental Health Wellness, we offer essential tools designed to enhance your mental health journey. Explore how our features can empower and uplift you.</p>
+        
+        <div class="features-content">
+            <div class="features-left">
+                <div class="feature-box">
+                    <img src="images/chat.jpg" alt="AI-Powered Chatbot">
+                    <a href="chatbot.html"><h3>AI-Powered Chatbot</h3></a>
+                    <p>Get instant responses to your mental health queries with our intelligent chatbot.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="images/resources.jpeg" alt="Resource Hub">
+                    <a href="resources.html"><h3>Resource Hub</h3></a>
+                    <p>Access a wealth of articles and blogs on mental health topics that matter to you.</p>
+                </div>
+            </div>
+
+            <div class="feature-center">
+                <img src="images/mentals.png" alt="Feature Image">
+            </div>
+
+            <div class="features-right">
+                <div class="feature-box">
+                    <img src="images/service.jpg" alt="Professional Support">
+                    <a href="connect.html"><h3>Professional Support</h3></a>
+                    <p>Connect with qualified professionals for personalized support and guidance tailored to your needs.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="images/joinUs.jpg" alt="Join Us Today">
+                    <a href="signup.html"><h3>Join Us Today</h3></a>
+                    <p>Start your journey towards better mental health by signing up for our services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="call-to-action">
+            <a href="#">Learn More</a>
+            <a href="signup.html" class="signup-button">Sign Up</a>
+        </div>
+    </main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

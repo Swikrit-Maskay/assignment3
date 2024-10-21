@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Mental Health Wellness</title>
+    <script src="./signup.js" defer></script>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="aboutus.html">About Us</a>
+            <a href="features.html">Features</a>
+            <a href="connect.html">Support</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="resources.html">Resources</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="signup-section">
+        <h1>Sign Up for Better Mental Wellness</h1>
+        <p>Join our platform and take a step towards improving your mental health.</p>
+        
+        <form action="#" method="POST" class="signup-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            </div>
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+
+        <p class="login-text">Already have an account? <a href="#">Log In</a></p>
+    </section>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

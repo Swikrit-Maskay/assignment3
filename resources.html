@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Resources</title>
+    <link rel="stylesheet" href="home.css"> 
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">Mental Health Wellness</a>
+        </div>
+        <nav class="menu">
+            <a href="aboutus.html">About Us</a>
+            <a href="features.html">Features</a>
+            <a href="connect.html">Support</a>
+            <a href="chatbot.html">Chatbot</a>
+            <a href="resources.html">Resources</a>
+            <a href="signup.html" class="signup">Sign Up</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section class="resources-section">
+        <h1>Mental Health Resources</h1>
+        <p>We’ve curated a list of trusted websites, articles, and tools to help you on your mental health journey. Explore the links below to find additional guidance and support from various platforms.</p>
+        
+        <div class="resources-list">
+            <div class="resource-item">
+                <h3><a href="https://www.mentalhealth.gov/" target="_blank">MentalHealth.gov</a></h3>
+                <p>A comprehensive guide to mental health resources, covering common mental health conditions, treatments, and how to seek help.</p>
+            </div>
+            <div class="resource-item">
+                <h3><a href="https://www.nami.org/Home" target="_blank">NAMI (National Alliance on Mental Illness)</a></h3>
+                <p>NAMI is a grassroots mental health organization dedicated to building better lives for millions of Americans affected by mental illness.</p>
+            </div>
+            <div class="resource-item">
+                <h3><a href="https://www.mhanational.org/" target="_blank">Mental Health America</a></h3>
+                <p>Offers prevention services, early identification, and resources for managing mental health symptoms before they become severe.</p>
+            </div>
+            <div class="resource-item">
+                <h3><a href="https://www.samhsa.gov/" target="_blank">SAMHSA</a></h3>
+                <p>Substance Abuse and Mental Health Services Administration (SAMHSA) provides national resources on mental health and substance use.</p>
+            </div>
+            <div class="resource-item">
+                <h3><a href="https://www.psychologytoday.com/us" target="_blank">Psychology Today</a></h3>
+                <p>A source for expert-reviewed articles on mental health topics, as well as directories for finding therapists and support groups.</p>
+            </div>
+            <div class="resource-item">
+                <h3><a href="https://www.befrienders.org/" target="_blank">Befrienders Worldwide</a></h3>
+                <p>An international network of emotional support centers for individuals feeling distressed, offering confidential support around the world.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-to-action3">
+        <h2>Need More Personalized Support?</h2>
+        <a href="signup.html" class="signup-button">Sign Up for a Personalized Care Plan</a>
+    </section>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
